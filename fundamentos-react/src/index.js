@@ -1,3 +1,11 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+import React from 'react';
 
-const el = ReactDOM.render('Olá React', document.getElementById('root'));
+const tag = <strong>Olá React</strong>;
+
+ReactDOM.render(
+    <div>
+        {tag}
+    </div>, 
+    document.getElementById('root')
+);
