@@ -1,0 +1,22 @@
+.tabelaProduto {
+    width: 100%;
+    border: 0;
+}
+
+.tabelaProduto th {
+    background-color: aquamarine;
+}
+
+.tabelaProduto .Par {
+    background-color: #ddd;
+}
+
+.tabelaProduto .Impar {
+    background-color: #ccc;
+}
+
+.tabelaProduto caption {
+    color: rgb(24, 24, 156);
+    font-weight: 5px;
+    font-size: 1.2em;
+}

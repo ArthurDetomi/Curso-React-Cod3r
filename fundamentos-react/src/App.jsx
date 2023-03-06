@@ -8,6 +8,7 @@ import NumeroAleatorio from "./components/basicos/NumeroAleatorio";
 import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
@@ -19,7 +20,11 @@ export default () =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
-            <Card titulo="#06 Desafio repetição" color="#929">
+            <Card titulo="#07 Renderização condicional" color="#421">
+                <ParOuImpar numero={22}></ParOuImpar>
+            </Card>
+
+            <Card titulo="#07 Desafio repetição" color="#929">
                 <TabelaProdutos></TabelaProdutos>
             </Card>
 
