@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
@@ -20,8 +21,10 @@ export default () =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            
             <Card titulo="#07 Renderização condicional" color="#421">
                 <ParOuImpar numero={22}></ParOuImpar>
+                <UsuarioInfo usuario={{nome:'Fernando'}}></UsuarioInfo>
             </Card>
 
             <Card titulo="#07 Desafio repetição" color="#929">
