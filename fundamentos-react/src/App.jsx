@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import Primeiro from './components/basicos/Primeiro';
 import ComParametro from './components/basicos/ComParametro';
@@ -22,8 +23,12 @@ export default () =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#10 Comunicação Indireta" color="#199">
+                <IndiretaPai  />
+            </Card>
+
             <Card titulo="#09 Comunicação Direta" color="#799">
-                <DiretaPai />
+                <DiretaPai  />
             </Card>
             
             <Card titulo="#07 Renderização condicional" color="#421">
